@@ -6,6 +6,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: #1e1e1e;
+  color: #2e2e2e;
   animation: backgroundAnimation 10s infinite;
 }
 
@@ -19,14 +21,14 @@ body {
 
 @keyframes backgroundAnimation {
   0% {
-    background: linear-gradient(135deg, #3498db, #e74c3c, #2ecc71, #f39c12);
+    background: linear-gradient(135deg, #5a9bcf, #ab7967, #67ab52, #c06d44);
     background-size: 600% 600%;
   }
   50% {
     background-position: 100% 0;
   }
   100% {
-    background: linear-gradient(135deg, #3498db, #e74c3c, #2ecc71, #f39c12);
+    background: linear-gradient(135deg, #5a9bcf, #ab7967, #67ab52, #c06d44);
     background-size: 600% 600%;
     background-position: 0 0;
   }
