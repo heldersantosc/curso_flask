@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  animation: backgroundAnimation 10s infinite;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+@keyframes backgroundAnimation {
+  0% {
+    background: linear-gradient(135deg, #3498db, #e74c3c, #2ecc71, #f39c12);
+    background-size: 600% 600%;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+  100% {
+    background: linear-gradient(135deg, #3498db, #e74c3c, #2ecc71, #f39c12);
+    background-size: 600% 600%;
+    background-position: 0 0;
+  }
+}

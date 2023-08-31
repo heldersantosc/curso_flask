@@ -22,7 +22,7 @@ Obs: Selecione o interpretador no vscode:
 
 #### Execute o comando para iniciar o projeto
 ```
-python -m __init__.py
+python __init__.py
 ```
 ou
 ```
