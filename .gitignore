@@ -18,4 +18,4 @@ env/
 
 # Ignorar arquivos e diretórios específicos do Flask
 instance/
-.vscode/
+#.vscode/

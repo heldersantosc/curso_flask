@@ -37,4 +37,5 @@ with app.test_request_context():
     print(url_for("show_age", age=27))
 
 
-app.run(host="0.0.0.0", port=5000, debug=True)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000, debug=True)
